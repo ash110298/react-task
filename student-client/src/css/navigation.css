@@ -1,0 +1,113 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family: cursive;
+  position: relative;
+  left:100px;
+
+}
+
+.border{
+border-bottom: 1px solid lightgray;
+position: relative;
+margin-bottom: 30px;
+
+}
+/* .border a:hover   {
+  border-bottom: 3px solid red;
+} */
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgrey;
+}
+.qname{
+  padding:inherit;
+  margin:0;
+  color: red;
+  font-size:150%;
+  font-weight: 200%;
+  position: relative;
+  top:10px;
+  left:20px;
+  font-style: italic;
+   font-weight: 800;
+}
+
+.addschool{
+  font-color:blue;
+  position:relative;
+  left:200px;
+  top:60px;
+}
+input[type=text]:focus{
+  width:1px;
+}
+.addbutton{
+background-color: rgb(184, 0, 0);
+color: rgb(255, 255, 255);
+  font-style: italic;
+position: relative;
+left:5px;
+border-radius: 8px;
+width:140px;
+height:30px;
+top:100;
+}
+
+.space{
+  height: 1000px;
+
+}
+.bell{
+  position: relative;
+  left:40px;
+  top:10px;
+}
+.user{
+  position:relative;
+  left:80px;
+
+}
+.name{
+  position: relative;
+  top:400;
+  bottom:10;
+  color:red
+}
+/* .nav a.active{
+  background-color: #f7f8fa;
+  color: red;
+  cursor: default;
+  border:red
+} */
+
+.seperate{
+  display: flex;
+  direction: row;
+}
+
+.log{
+  position: fixed;
+  top: 10px;
+  left: 1200px;
+}
+
+.uname{
+  position: relative;
+  bottom:18px;
+  left:250px;
+}

@@ -1,0 +1,17 @@
+.addstud{
+  width:300px;
+  position:relative;
+  left:250px;
+  bottom: 100px;
+
+}
+
+.but{
+  position: relative;
+  left:10px;
+  top:40px;
+}
+
+.drop{
+  width:300px;
+}
